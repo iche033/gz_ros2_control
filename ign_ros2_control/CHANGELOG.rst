@@ -13,6 +13,20 @@ Forthcoming
 * Add support for initial_values for hardware interfaces when starting simulation. (`#27 <https://github.com/ros-controls/gz_ros2_control/issues/27>`_)
 * Contributors: Alejandro Hernández Cordero, Denis Štogl, Guillaume Beuzeboc
 
+0.4.2 (2022-11-25)
+------------------
+* Force setting use_sim_time parameter when using plugin. (`#100 <https://github.com/ros-controls/gz_ros2_control//issues/100>`_) (`#102 <https://github.com/ros-controls/gz_ros2_control//issues/102>`_)
+  Co-authored-by: Denis Štogl <denis@stogl.de>
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+* Enable loading params from multiple yaml files (`#94 <https://github.com/ros-controls/gz_ros2_control//issues/94>`_)
+* Contributors: Alejandro Hernández Cordero
+
+0.4.1 (2022-06-06)
+------------------
+* Remove URDF dependency (`#56 <https://github.com/ignitionrobotics/ign_ros2_control/issues/56>`_)
+* typo in citadel name (`#54 <https://github.com/ignitionrobotics/ign_ros2_control/issues/54>`_)
+* Contributors: Alejandro Hernández Cordero, Guillaume Beuzeboc, ahcorde
+
 0.4.0 (2022-03-18)
 ------------------
 * Fix default ign gazebo version Galactic (`#44 <https://github.com/ignitionrobotics/ign_ros2_control/issues/44>`_)
